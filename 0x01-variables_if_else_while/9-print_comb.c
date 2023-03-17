@@ -1,10 +1,8 @@
 #include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <time.h>
 /**
- * main - main block
- * Description: print all possible combinations of single digit numbers
- * starting from 0, followed by a new line
+ * main - Entry point
  * Return: always 0 (Success)
  */
 int main(void)
@@ -16,8 +14,8 @@ int main(void)
 	putchar(d);
 	if (d != '9')
 	{
-	putchar(*, *);
-	putchar(**);
+	putchar(',');
+	putchar(' ');
 	}
 	}
 	putchar('\n');
